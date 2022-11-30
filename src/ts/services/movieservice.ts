@@ -1,5 +1,6 @@
 import { IMovie } from "../models/IMovie";
 import { IOmdbResponse } from "../models/IOmdbResponse";
+import axios from "axios";
 
 export const getData = async (
   searchText: string

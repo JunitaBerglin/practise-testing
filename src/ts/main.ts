@@ -1,3 +1,5 @@
+import axios from "axios";
+
 /*I tester är det mycket viktigt att använda sig av data som är förutsägbar. Alltså inte data från
 en databas (som kan ändra sig utan att vi vet det).
 1. Börja med att skapa ett nytt projekt! Hurra, fler gånger :) Installera jest och allting
